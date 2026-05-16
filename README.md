@@ -56,7 +56,6 @@ By the way for this module uses SGD as the main currency. All exchange rates are
     parameters required: fromUser (string), toUser (string), amountSGD(int), toCurrency (string), receiveMethod (string)
 
 7. **Generate Transaction Statement** 
--  send money in our own currency ( SGD ) overseas, and they will receive it in their own local currency 
 - i do new date so the current date is automatically generated when testing the transaction statement
 
     const startDate = new Date().toISOString();
